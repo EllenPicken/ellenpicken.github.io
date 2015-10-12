@@ -4,5 +4,15 @@ img {
 
 
 body {
+    
+}
     background: lightblue;
+}
+
+h1 {
+    element.style {
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
 }
