@@ -28,6 +28,9 @@ p {
     background-color: aliceblue;
 }
 
+ol {
+    
+}
 
 /* Navigation */
 a {
@@ -41,6 +44,7 @@ a {
 }
 
 li {
-   color:aliceblue;
+   color:grey;
     display: inline;
+    
 }
