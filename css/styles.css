@@ -1,8 +1,5 @@
 /* Global */
 
-img {
-    width: 25%;
-}
 
 
 body {
@@ -15,9 +12,13 @@ body {
     background-size: 50%;
 }
 
+img {
+   width: 85%;
+}
 
 
 /* Layout */
+
 
 
 
@@ -28,7 +29,7 @@ h1 {
     color: #c5c3c3;
     text-transform: uppercase;
     text-align: center;
-    font-size: 10em;
+    font-size: 15em;
 }
 
 h2 {
@@ -52,6 +53,7 @@ ol {
 ul, menu, dir {
     display: block;
     list-style-type: disc;
+    text-align: center;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 5em;
     -webkit-margin-start: 0px;
@@ -82,8 +84,42 @@ li {
 
 /* Images */
 
-main {
-    display: inline;
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+  max-width: 90%; /* for good visual design, reduce max-width */  
 }
+
+article {
+  float: left;
+  margin: 1%; /* 10px / 900   = */
+  padding: 1%; /* 10px / 225px  = .044444 % */
+  width: 20%; /* 600px / 1000px  = 60% */ 
+}
+
+
+/* Clearfix */
+.container:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+
+
+
+/* Submit Forms */
+
+input {
+  display: block;
+}
+
+
+
 
 
