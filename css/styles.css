@@ -22,6 +22,11 @@ img {
 
 
 /* Layout */
+
+#title header {
+    position: absolute;
+    margin: 5% 30% 5% 33%;
+}
 header {
     margin: 5% 30% 5% 33%;
     font-family: 'Montserrat', sans-serif;
@@ -104,10 +109,6 @@ article {
   margin: 1%; /* 10px / 900   = */
   padding: 1%; /* 10px / 225px  = .044444 % */
   width: 20%; /* 200px / 1000px  = 20% */
-    
-    img {
-        width: 100%;
-    }
 }
 
 
