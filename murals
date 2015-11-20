@@ -12,6 +12,21 @@
   </head>
   
     <body>
+        <header class="my-name" id="header">
+            <div class="header-container">
+                <h1><a class="a-h1" href="index.html">Ellen Picken</a></h1>
+            </div>
+        </header>
+        
+
+        <nav role='navigation' class="grid-container">
+          <ul>            
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">MURALS</a></li>
+          </ul>
+        </nav>  
+
         <main class="container">
             <article>
                 <img src="img/wall_1.jpg" alt="Wall Street Mural">
@@ -26,5 +41,6 @@
             <article>
                 <img src="img/htc_2.jpg" alt="HTC Mural">
             </article>
-        </main> 
-</body>
+        </main>        
+    </body>
+</html>
