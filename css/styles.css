@@ -4,16 +4,17 @@
 
 body {
     font-family: 'Lora', serif;
-    background-color: #f0efef;
-    background-image: url(../img/concrete-wall-2.png);
-    -webkit-background-size: 50%;
-    -moz-background-size: 50%;
-    -o-background-size: 50%;
-    background-size: 50%;
+    background-image: url(../img/background_streak.jpg);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    
+    
 }
 
 img {
-   width: 85%;
+   width: 100%;
 }
 
 
@@ -24,7 +25,7 @@ img {
 
 /* Typography */
 
-h1 {
+h1, a {
     font-family: 'Montserrat', sans-serif;
     color: #c5c3c3;
     text-transform: uppercase;
@@ -96,7 +97,11 @@ article {
   float: left;
   margin: 1%; /* 10px / 900   = */
   padding: 1%; /* 10px / 225px  = .044444 % */
-  width: 20%; /* 600px / 1000px  = 60% */ 
+  width: 20%; /* 200px / 1000px  = 20% */
+    
+    img {
+        width: 100%;
+    }
 }
 
 
