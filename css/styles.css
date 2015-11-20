@@ -4,7 +4,10 @@
 
 body {
     font-family: 'Lora', serif;
+    background: black;
+    
     background-image: url(../img/background_streak.jpg);
+    
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -19,19 +22,22 @@ img {
 
 
 /* Layout */
-
-
-
-
-/* Typography */
-
-h1, a {
+header {
+    margin: 5% 30% 5% 33%;
     font-family: 'Montserrat', sans-serif;
     color: #c5c3c3;
     text-transform: uppercase;
     text-align: center;
-    font-size: 15em;
+    font-size: 1em;
 }
+
+
+/* Typography */
+
+
+
+
+
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
@@ -55,7 +61,7 @@ ul, menu, dir {
     display: block;
     list-style-type: disc;
     text-align: center;
-    -webkit-margin-before: 1em;
+    -webkit-margin-before: 5em;
     -webkit-margin-after: 5em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
