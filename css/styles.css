@@ -28,6 +28,7 @@ img {
     position: absolute;
     margin: 5% 30% 5% 33%;
 }
+
 header {
     margin: 5% 30% 5% 33%;
     font-family: 'Montserrat', sans-serif;
@@ -36,6 +37,19 @@ header {
     text-align: center;
     font-size: 1em;
 }
+
+caption {
+}
+
+.caption-container {
+    margin: 0 auto;
+    width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+    max-width: 75%;
+
+}
+
+p1
+
 
 
 /* Typography */
@@ -162,7 +176,7 @@ button {
 
 .container-button {
       display: inline-block;
-      background-color: black;
+      background-color: none;
       font-family: 'Montserrat', sans-serif;
       width: 700px;
       margin: 20px 0px 20px 100px;
@@ -261,8 +275,8 @@ button {
 
 .btn2 {
     float: left;
-      margin: .1%; /* 10px / 900   = */
-      padding: 3.5% 2% .5% 2%; /* 10px / 225px  = .044444 % */
+      margin: .3%; /* 10px / 900   = */
+      padding: 3% 2% .5% 2%; /* 10px / 225px  = .044444 % */
       width: 28%;
     background: #c5c3c3;
     display: inline-block;
