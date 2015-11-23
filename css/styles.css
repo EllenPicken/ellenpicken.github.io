@@ -43,7 +43,7 @@ header {
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
-    color: none;
+    color: antiquewhite;
     text-transform: uppercase;
 }
 
@@ -155,14 +155,14 @@ input {
 
 
 /*Buttons*/
-
 button {
-    background-color: none;
+    background: none;
+    border: none;
 }
 
 .container-button {
       display: inline-block;
-      background-color: none;
+      background-color: black;
       font-family: 'Montserrat', sans-serif;
       width: 700px;
       margin: 20px 0px 20px 100px;
