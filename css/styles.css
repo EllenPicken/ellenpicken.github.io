@@ -48,7 +48,8 @@ caption {
 
 }
 
-p1
+p1 {
+}
 
 
 
@@ -86,9 +87,17 @@ ul, menu, dir {
     -webkit-padding-start: 40px;
 }
 
+li {
+    color:grey;
+    display: inline;
+    padding: 1.5em;
+    
+}
+
 a {
     font-family: 'Poiret One', cursive;
     color: #323131;
+    background: none;
     font-size: 6em;
     text-transform: uppercase;
     background: none;
@@ -97,15 +106,17 @@ a {
     display: inline-block;
     height: 100px;
     width; 100px;
-
-}
-
-li {
-    color:grey;
-    display: inline;
-    padding: 1.5em;
     
+    transition: all .25s .25s;
+
 }
+
+a:hover, a:focus {
+  color: lightgrey;
+  border-radius: 8px;
+}
+
+
 
 /* Images */
 
