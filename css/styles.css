@@ -89,12 +89,6 @@ p3 {
 
 
 
-
-
-ol {
-    
-}
-
 /* Navigation */
 ul, menu, dir {
     display: block;
@@ -145,10 +139,10 @@ a1 {
     background: none;
     text-decoration: none;
     
-    display: inline-block;
+    display: inline;
     margin: 20px;
     padding: 20px;
-    width: 100%;
+
     
     transition: all .25s .25s;
 
