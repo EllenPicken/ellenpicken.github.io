@@ -145,9 +145,9 @@ a1 {
     background: none;
     text-decoration: none;
     
-    display: inline-block;
+    display: block;
     height: 100px;
-    width; 100px;
+    width; 200px;
     
     transition: all .25s .25s;
 
