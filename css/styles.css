@@ -87,6 +87,16 @@ p3 {
     display: block; 
 }
 
+label {
+    font-family: 'Poiret One', cursive;
+    color: #c5c3c3;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 20px 10px 10px 20px;
+    
+    display: inline-block; 
+}
+
 
 
 ol {
@@ -209,8 +219,7 @@ button {
       font-family: 'Montserrat', sans-serif;
       width: 700px;
       margin: 20px 0px 20px 100px;
-      padding: 48px;
-   
+      padding: 48px; 
 }
 
     
