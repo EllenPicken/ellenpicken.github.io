@@ -71,8 +71,18 @@ p2 {
     font-family: 'Source Code Pro', ;
     font-weight: 200;
     color: #c5c3c3;
-    font-size: 2em;
-    padding: 20px;
+    font-size: 1em;
+    padding: 10px;
+    
+    display: block; 
+}
+
+p3 {
+    font-family: 'Source Code Pro', ;
+    font-weight: 200;
+    color: #c5c3c3;
+    font-size: 1.25em;
+    padding: 10px;
     
     display: block; 
 }
