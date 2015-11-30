@@ -203,16 +203,18 @@ article1 {
 /* Submit Forms */
 
 input {
-  display: block;
-    
-    width: 100%;
+    display: block;
+    width: 50%;
+}
+
+textarea {
+    display: block;
+    width: 50%;
 }
 
 
 /*Buttons*/
 button {
-    font-family: 'Montserrat', sans-serif;
-    color: aqua;
     background: none;
     border: none;
 }
