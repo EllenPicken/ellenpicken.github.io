@@ -139,7 +139,8 @@ a1 {
     background: none;
     text-decoration: none;
     
-    display: inline;
+    width: 900px;
+    display: inline-block;
     margin: 20px;
     padding: 20px;
 
@@ -244,7 +245,6 @@ button {
       background-color: none;
       font-family: 'Montserrat', sans-serif;
       width: 300px;
-        height: 10%;
       margin: 20px 0px 20px 100px;
       padding: 48px; 
 }
@@ -253,8 +253,9 @@ button {
 .btn1 {
     float: left;
       margin: .3%; /* 10px / 900   = */
-      padding: 3% 2% .5% 2%; /* 10px / 225px  = .044444 % */
+      padding: 2%; /* 10px / 225px  = .044444 % */
       width: 60%;
+    height: 30%;
    
     background: #c5c3c3;
     display: inline-block;
@@ -341,8 +342,9 @@ button {
 .btn2 {
     float: left;
       margin: .3%; /* 10px / 900   = */
-      padding: 3% 2% .5% 2%; /* 10px / 225px  = .044444 % */
+      padding: 2%; /* 10px / 225px  = .044444 % */
       width: 28%;
+    height: 30%;
     background: #c5c3c3;
     display: inline-block;
     text-align: center;
