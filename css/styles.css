@@ -67,6 +67,16 @@ p1 {
     display: block; 
 }
 
+p2 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #c5c3c3;
+    font-size: 2em;
+    padding: 20px;
+    
+    display: block; 
+}
+
+
 
 ol {
     
