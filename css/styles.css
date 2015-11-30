@@ -244,6 +244,7 @@ button {
       background-color: none;
       font-family: 'Montserrat', sans-serif;
       width: 300px;
+        height: 10%;
       margin: 20px 0px 20px 100px;
       padding: 48px; 
 }
@@ -254,10 +255,10 @@ button {
       margin: .3%; /* 10px / 900   = */
       padding: 3% 2% .5% 2%; /* 10px / 225px  = .044444 % */
       width: 60%;
+   
     background: #c5c3c3;
     display: inline-block;
     text-align: center;
-    
     white-space: nowrap;
     vertical-align: middle;
     border: 0;
