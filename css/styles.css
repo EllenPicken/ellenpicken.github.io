@@ -87,15 +87,7 @@ p3 {
     display: block; 
 }
 
-label {
-    font-family: 'Poiret One', cursive;
-    color: #c5c3c3;
-    font-size: 2em;
-    text-transform: uppercase;
-    margin: 20px 10px 10px 20px;
-    
-    display: inline-block; 
-}
+
 
 
 
@@ -202,10 +194,20 @@ article1 {
 
 /* Submit Forms */
 
+label {
+    font-family: 'Poiret One', cursive;
+    color: #c5c3c3;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 20px 10px 10px 0px;
+    
+    display: inline-block; 
+}
+
 input {
     display: block;
     width: 50%;
-    height: 30px;
+    height: 60px;
 }
 
 textarea {
