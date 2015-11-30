@@ -204,12 +204,15 @@ article1 {
 
 input {
   display: block;
+    
     width: 100%;
 }
 
 
 /*Buttons*/
 button {
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
     background: none;
     border: none;
 }
