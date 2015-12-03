@@ -19,6 +19,14 @@ img {
    width: 100%;
 }
 
+.gallery {
+    height: 600px}
+}
+
+.gallery .item {
+    background: none;
+}
+
 
 /* Layout */
 
