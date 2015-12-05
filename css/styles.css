@@ -57,7 +57,7 @@ h2 {
 p {
     font-family: 'Source Code Pro';
     color: #c5c3c3;
-    font-size: 3em;
+    font-size: 1.5em;
     padding: 20px;
     text-transform: uppercase;
 }
@@ -67,7 +67,7 @@ p1 {
     font-family: 'Poiret One', cursive;
     color: #c5c3c3;
     font-size: 2em;
-    padding: 20px;
+    padding: 5px 20px 5px 5px;
     
     display: block; 
 }
@@ -176,9 +176,9 @@ article {
 
 article1 {
   float: left;
-  margin: 1%; /* 10px / 900   = */
+  margin: 50px 0px 0px 0px; /* 10px / 900   = */
   padding: 1%; /* 10px / 225px  = .044444 % */
-  width: 100%; /* 200px / 1000px  = 20% */
+  width: 50%; /* 200px / 1000px  = 20% */
     height: 50%;
 }
 
@@ -231,7 +231,7 @@ textarea {
 	width: 50%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
-	background-color: #c5c3c3;
+	background-color: #000;
 	color:white;
 	padding-top: 10px;
 	padding-bottom:22px;
@@ -242,7 +242,7 @@ textarea {
 
 #button-send:hover{
 	background-color: #ff00cc;
-	color: #c5c3c3;
+	color: #000;
 }
 	
 .submit:hover {
