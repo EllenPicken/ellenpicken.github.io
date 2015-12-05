@@ -259,10 +259,12 @@ textarea {
 .container-button {
       display: inline-block;
       background-color: none;
-    border: none;
+      border: none;
       font-family: 'Montserrat', sans-serif;
-      width: 100px;
-      padding: 48px; 
+    margin: 0;
+    width: 100%;
+    max-width:20%;
+    padding: 48px; 
 }
 
     
