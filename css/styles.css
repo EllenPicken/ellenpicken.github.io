@@ -241,8 +241,8 @@ textarea {
 }
 
 #button-send:hover{
-	
-	color: #ff00cc;
+	background-color: #ff00cc;
+	color: #c5c3c3;
 }
 	
 .submit:hover {
