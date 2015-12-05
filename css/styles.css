@@ -230,7 +230,7 @@ textarea {
     margin: .5px;
     display: block;
 	width: 50%;
-	border: #fbfbfb solid 4px;
+	border: #fbfbfb solid 20px;
 	cursor:pointer;
 	background-color: #000;
 	color:white;
