@@ -171,17 +171,11 @@ article {
 
 .container-murals {
   margin: 0 auto;
-  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 75%; /* for good visual design, reduce max-width */  
+  width: 75%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+  max-width: 50%; /* for good visual design, reduce max-width */  
 }
 
-article1 {
-  float: left;
-  margin: 50px 0px 0px 0px; /* 10px / 900   = */
-  padding: 1%; /* 10px / 225px  = .044444 % */
-  width: 50%; /* 200px / 1000px  = 20% */
-    height: 50%;
-}
+
 
 
 /* Clearfix */
