@@ -3,9 +3,6 @@
 
 
 body {
-    font-family: 'Lora', serif;
-    
-    
     background-image: url(../img/background_streak.jpg);
     background: black;
     
@@ -37,7 +34,6 @@ img {
 
 header {
     margin: 5% 30% 5% 33%;
-    font-family: 'Montserrat', sans-serif;
     color: #c5c3c3;
     text-transform: uppercase;
     text-align: center;
@@ -53,16 +49,17 @@ header {
 
 
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
     color: #c5c3c3;
     text-transform: uppercase;
 }
 
 p {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Source Code Pro';
     color: #c5c3c3;
-    font-size: 5em;
-    padding: 20px;   
+    font-size: 3em;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -76,7 +73,7 @@ p1 {
 }
 
 p2 {
-    font-family: 'Source Code Pro', ;
+    font-family: 'Source Code Pro';
     font-weight: 200;
     color: #c5c3c3;
     font-size: 1em;
@@ -86,7 +83,7 @@ p2 {
 }
 
 p3 {
-    font-family: 'Source Code Pro', ;
+    font-family: 'Source Code Pro';
     font-weight: 200;
     color: #c5c3c3;
     font-size: 1.25em;
@@ -116,6 +113,8 @@ li {
     
 }
 
+
+
 a {
     font-family: 'Poiret One', cursive;
     color: #323131;
@@ -138,29 +137,6 @@ a:hover, a:focus {
   border-radius: 8px;
 }
 
-a1 {
-    font-family: 'Poiret One', cursive;
-    color: #323131;
-    background: none;
-    font-size: 6em;
-    text-transform: uppercase;
-    background: none;
-    text-decoration: none;
-    
-    width: 900px;
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-
-    
-    transition: all .25s .25s;
-
-}
-
-a1:hover, a:focus {
-  color: lightgrey;
-  border-radius: 8px;
-}
 
 
 
@@ -231,15 +207,49 @@ label {
 }
 
 input {
+    font-family: 'Source Code Pro';
+    font-size: 2em;
     display: block;
     width: 50%;
     height: 60px;
 }
 
 textarea {
+    font-family: 'Source Code Pro';
+    font-size: 1em;
     display: block;
     width: 50%;
 }
+
+#button-send {
+    font-family: 'Poiret One', cursive;
+    color: #c5c3c3;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: .5px;
+    display: block;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #c5c3c3;
+	color:white;
+	padding-top: 10px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-send:hover{
+	background-color: rgba(0,0,0,0);
+	color: #c5c3c3;
+}
+	
+.submit:hover {
+	color: #c5c3c3;
+}
+}
+    
 
 
 /*Buttons*/
