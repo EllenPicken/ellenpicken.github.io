@@ -254,19 +254,14 @@ textarea {
 
 
 /*Buttons*/
-button {
-    background: none;
-    border: none;
-    width: 50%;
-}
+
 
 .container-button {
       display: inline-block;
       background-color: none;
     border: none;
       font-family: 'Montserrat', sans-serif;
-      width: 300px;
-      margin: 20px 0px 20px 100px;
+      width: 100px;
       padding: 48px; 
 }
 
@@ -275,7 +270,7 @@ button {
     float: left;
       margin: .3%; /* 10px / 900   = */
       padding: 2%; /* 10px / 225px  = .044444 % */
-      width: 60%;
+      width: 70%;
     height: 30%;
    
     background: #c5c3c3;
