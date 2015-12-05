@@ -192,6 +192,31 @@ article1 {
   visibility: hidden;
 }
 
+/* murals projects page */
+
+.container-projects {
+  margin: 0 auto;
+  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+  max-width: 90%; /* for good visual design, reduce max-width */  
+}
+
+article1 {
+  float: left;
+  margin: 0% 0% 10% 0%; /* 10px / 900   = */
+  padding: 1%; /* 10px / 225px  = .044444 % */
+  width: 90%; /* 200px / 1000px  = 20% */
+    height: 50%;
+}
+
+
+/* Clearfix */
+.container-projects:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
 
 
 
@@ -257,23 +282,20 @@ textarea {
 
 
 .container-button {
-      display: inline-block;
-      background-color: none;
-      border: none;
-      font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    width: 100%;
-    max-width:20%;
-    padding: 48px; 
+    display: inline-block;
+    background-color: none;
+    border: none;
+    
+     
 }
 
     
 .btn1 {
     float: left;
-      margin: .3%; /* 10px / 900   = */
-      padding: 2%; /* 10px / 225px  = .044444 % */
-      width: 70%;
-    height: 30%;
+      margin: 5% .1% 5% 10%; /* 10px / 900   = */
+      padding: .5%; /* 10px / 225px  = .044444 % */
+      width: 15%;
+    height: 10%;
    
     background: #c5c3c3;
     display: inline-block;
@@ -286,6 +308,7 @@ textarea {
     user-select: none;
     text-decoration: none;
     font-family: 'Poiret One', cursive;
+    font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .1em;
     &:hover,
@@ -359,10 +382,10 @@ textarea {
 
 .btn2 {
     float: left;
-      margin: .3%; /* 10px / 900   = */
-      padding: 2%; /* 10px / 225px  = .044444 % */
-      width: 28%;
-    height: 30%;
+      margin: 5% .1% 5% .1%; /* 10px / 900   = */
+      padding: .5%; /* 10px / 225px  = .044444 % */
+      width: 10%;
+    height: 10%;
     background: #c5c3c3;
     display: inline-block;
     text-align: center;
@@ -374,6 +397,7 @@ textarea {
     user-select: none;
     text-decoration: none;
     font-family: 'Poiret One', cursive;
+    font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .1em;
     
