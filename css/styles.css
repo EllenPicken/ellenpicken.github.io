@@ -58,7 +58,8 @@ p {
     font-family: 'Source Code Pro';
     color: #c5c3c3;
     font-size: 1.5em;
-    padding: 20px;
+    margin-top: 5px;
+    padding: 0px 5px 5px 0px;
     text-transform: uppercase;
 }
 
@@ -67,7 +68,7 @@ p1 {
     font-family: 'Poiret One', cursive;
     color: #c5c3c3;
     font-size: 2em;
-    padding: 5px 20px 5px 5px;
+    padding: 10px;
     
     display: block; 
 }
