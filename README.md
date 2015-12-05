@@ -5,6 +5,9 @@ Sources
 
 Codepen in class tutorials
 
+Slide Show:
+Codepen Image Slideshow CSS - http://codepen.io/raevenk/pen/BoaxLq
+
 Previous/Next buttons:
 Codepen CSS Process Buttons - http://codepen.io/mihaeltomic/pen/pjqWxx
 
