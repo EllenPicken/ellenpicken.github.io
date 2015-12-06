@@ -39,3 +39,13 @@ About images:
 Leo Tolstoy - http://flag.blackened.net/tolstoy/
 Daniil Kharms - http://www.vitanova.ru/mass_media/retsenzii/?year=2013
 Architecture José António Barbosa and Pedro Guimarães- https://tunameltsblog.wordpress.com/2012/04/15/daily-design-vodafone-office-building-in-port/
+Santiago Calatrava - http://www.nationalgeographic.com/new-york-city-skyline-tallest-midtown-manhattan/article.html
+
+House in Burkina Faso - http://kwekudee-tripdownmemorylane.blogspot.com/2013/06/gurunsi-people-west-african-tribe-with.html
+
+Francis Bacon - http://www.francis-bacon.com/blog/category/current_exhibitions/
+
+The Holy Mountain, Alejandro Jodorowsky - http://thearcanefront.com/holy-mountain-film-video/
+
+Alan Watts - Trying to define yourself is like trying to bite your own teeth.
+Thomas Merton - Happiness is not a matter of intensity but of balance, order, rhythm and harmony.
