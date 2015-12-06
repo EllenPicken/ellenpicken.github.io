@@ -533,8 +533,8 @@ textarea {
 .image-container {
   display: inline-block;
 
-  width: 200px;
-  height: 200px;
+  width: 360px;
+  height: 485px;
   overflow: hidden;
   background: none;
   cursor: pointer;
@@ -545,8 +545,8 @@ textarea {
   text-align: center;
 }
 .image {
-  width: 200px;
-  height: 200px;
+  width: 360px;
+  height: 485px;
   z-index: 1;
   transition: all 1s;
 }
@@ -554,9 +554,9 @@ textarea {
   max-width: 100%;
 }
 .caption {
-  width: 200px;
-  height: 200px;
-  padding-top: 100px;
+  width: 360px;
+  height: 485px;
+  padding-top: 200px;
   padding-bottom: 10px;
   background: rgba(0,0,0,.8);
   z-index: 2;
@@ -565,10 +565,10 @@ textarea {
 }
 
 .caption-num6 {
-  transform: translateY(-200px) translateY(-100%);
+  transform: translateY(-485px) translateY(-100%);
 }
 .image-container-num6:hover .caption-num6 {
-  transform: translateY(-200px);
+  transform: translateY(-485px);
 }
 
 .break {
