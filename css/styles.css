@@ -287,7 +287,7 @@ textarea {
 .btn1 {
     float: left;
       margin: 5% .1% 5% 10%; /* 10px / 900   = */
-      padding: .5%; /* 10px / 225px  = .044444 % */
+      padding: .5% 2% .5% 2%; /* 10px / 225px  = .044444 % */
       width: 15%;
     height: 10%;
    
@@ -515,17 +515,15 @@ textarea {
 
 /* about page */
 
-.contianter-about, main {
-  position: absolute;
-   margin: 0 auto;
-  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 90%;
-  font-family: 'Source Code Pro';
-  font-size: 14px;
-  font-weight: 100;
-  color: #fff;
-  text-align: center;
-}
+
+
+
+
+
+
+
+
+
 
 .image-container {
   display: inline-block;
@@ -533,8 +531,13 @@ textarea {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  background: #fff;
+  background: none;
   cursor: pointer;
+    font-family: 'Source Code Pro';
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
 }
 .image {
   width: 200px;
@@ -574,4 +577,13 @@ textarea {
   .break {
     display: initial;
   }
-} 
+}
+
+
+/* Clearfix */
+.container-about:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
