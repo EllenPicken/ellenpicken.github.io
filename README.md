@@ -8,6 +8,9 @@ Codepen in class tutorials
 Transition captions on About page:
 Creative Caption Gallery (Responsive) - http://codepen.io/Joshuasm32/pen/ruyhc
 
+Index page: 
+Image Hover Fade In Caption - http://codepen.io/kerrin/pen/ezqwC
+
 Previous/Next buttons:
 Codepen CSS Process Buttons - http://codepen.io/mihaeltomic/pen/pjqWxx
 
