@@ -49,7 +49,7 @@ header {
 
 
 h2 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #c5c3c3;
     text-transform: uppercase;
 }
@@ -167,24 +167,7 @@ article {
   visibility: hidden;
 }
 
-/* murals page */
 
-.container-murals {
-  margin: 0 auto;
-  width: 75%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 50%; /* for good visual design, reduce max-width */  
-}
-
-
-
-
-/* Clearfix */
-.container-murals:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-}
 
 /* murals projects page */
 
@@ -279,8 +262,6 @@ textarea {
     display: inline-block;
     background-color: none;
     border: none;
-    
-     
 }
 
     
@@ -319,12 +300,6 @@ textarea {
         visibility: hidden;
         display: inline-block;
         position: absolute;
-        background-image: url('http://mihaeltomic.com/share/next.svg');
-        background-repeat: no-repeat;
-        background-size: 24px 24px;
-        background-position: 0px 4px;
-        width: 24px;
-        height: 24px;
         vertical-align: middle;
         transform: translate(-15px, 0px);
         transition: all .25s cubic-bezier(0.65, 0.05, 0.36, 1);
@@ -376,8 +351,8 @@ textarea {
 
 .btn2 {
     float: left;
-      margin: 5% .1% 5% .1%; /* 10px / 900   = */
-      padding: .5%; /* 10px / 225px  = .044444 % */
+      margin: 5% .1% 5% .1%; 
+      padding: .5%; 
       width: 10%;
     height: 10%;
     background: #c5c3c3;
@@ -409,7 +384,6 @@ textarea {
         visibility: hidden;
         display: inline-block;
         position: absolute;
-        background-image: url('http://mihaeltomic.com/share/next.svg');
         background-repeat: no-repeat;
         background-size: 24px 24px;
         background-position: 0px 4px;
@@ -516,14 +490,10 @@ textarea {
 /* about page */
 
 
-
-
-
-
-
 .container-about {
     margin: 0 auto;
-  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+    padding: 20px;
+  width: 80%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
   max-width: 90%;
 
 }
@@ -592,3 +562,84 @@ textarea {
   clear: both;
   visibility: hidden;
 }
+
+
+/* murals page */
+
+
+
+.container-mural {
+    margin: 0 auto;
+    padding-right: 20px;
+  width: 70%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+  max-width: 90%;
+
+}
+
+
+
+.image-container {
+  display: inline-block;
+
+  width: 360px;
+  height: 485px;
+  overflow: hidden;
+  background: none;
+  cursor: pointer;
+    font-family: 'Source Code Pro';
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+}
+.image {
+  width: 360px;
+  height: 485px;
+  z-index: 1;
+  transition: all 1s;
+}
+.image img {
+  max-width: 100%;
+}
+.caption {
+  width: 360px;
+  height: 485px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  background: rgba(0,0,0,.8);
+  z-index: 2;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.caption-num6 {
+  transform: translateY(-485px) translateY(-100%);
+}
+.image-container-num6:hover .caption-num6 {
+  transform: translateY(-485px);
+}
+
+.break {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .image-container {
+    margin: 30px;
+    outline: solid 20px #eee;
+  }
+  .break {
+    display: initial;
+  }
+}
+
+
+/* Clearfix */
+.container-about:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
