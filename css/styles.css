@@ -174,7 +174,7 @@ article {
 .container-projects {
   margin: 0 auto;
   width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 90%; /* for good visual design, reduce max-width */  
+  max-width: 80%; /* for good visual design, reduce max-width */  
 }
 
 article1 {
@@ -502,6 +502,7 @@ textarea {
 
 .image-container {
   display: inline-block;
+    padding: 5px;
 
   width: 360px;
   height: 485px;
@@ -546,8 +547,8 @@ textarea {
 }
 @media all and (max-width: 650px) {
   .image-container {
-    margin: 30px;
-    outline: solid 20px #eee;
+    margin: 10px;
+    
   }
   .break {
     display: initial;
@@ -564,19 +565,17 @@ textarea {
 }
 
 
-/* murals page */
+/* murals page  *******************/
 
-
-
-.container-mural {
+.container-mural-page {
     margin: 0 auto;
-    padding-right: 20px;
-  width: 70%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 90%;
+    padding: 20px;
+    width: 70%;  
+    max-width: 90%;
 
 }
 
-
+/* murals page  ******************
 
 .image-container {
   display: inline-block;
@@ -633,7 +632,7 @@ textarea {
 }
 
 
-/* Clearfix */
+/* Clearfix 
 .container-about:after {
   content: ".";
   display: block;
@@ -641,5 +640,55 @@ textarea {
   visibility: hidden;
 }
 
+**********************************/
 
+/*  class:  container-mural image-container-num1 image1 img1 image-num1 caption1 caption-num1*/
+.container-mural {
+  display: inline-block;
+  position: relative;
+    padding: 10px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  background: none;
+  cursor: pointer;
+}
+.image1 {
+	background: red;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  transition: all .5s;
+}
+.image1 img {
+  max-width: 100%;
+	
+}
+.caption1 {
+  width: 300px;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(0,0,0,.8);
+  z-index: 2;
+  font-weight: 300;
+  transition: all .5s;
+}
+
+.caption-num1 {
+  transform: translateY(-300px) translateY(-100%);
+}
+.image-container-num1:hover .caption-num1 {
+  transform: translateY(-300px);
+}
+.image-container-num1:hover .image-num1 {
+  opacity: .5;
+}
+
+@media all and (max-width: 650px) {
+  .container-mural {
+    margin: 10px;
+    
+  }
+}
 
