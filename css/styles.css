@@ -159,6 +159,61 @@ article {
 }
 
 
+
+
+
+/* Index page slide show */
+
+.box {  
+  
+    cursor: pointer;  
+    width: 75%;
+    height: 750px;
+    float: left;  
+    margin-left: 15%;  
+    position: relative;  
+    overflow: hidden;  
+    background: none;
+   
+  
+}  
+  
+ .box img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+
+.box .secondimage {  
+    
+    background-color: none;  
+    position: absolute;  
+    color: none;  
+    z-index: 100;  
+    -webkit-transition: all .5s ease-out;  
+    -moz-transition: all .5s ease-out;  
+    -o-transition: all .5s ease-out;  
+    -ms-transition: all .5s ease-out;  
+    transition: all .5s ease-out;  
+    left: 0;  
+    opacity: 0;  
+    width: 100%;
+    height: 750px;  
+    text-align: left;  
+    padding: 0px;
+}  
+
+ 
+
+ .box:hover .secondimage {  
+    opacity: 1;  
+}
+
 /* Clearfix */
 .container:after {
   content: ".";
@@ -565,7 +620,7 @@ textarea {
 }
 
 
-/* murals page  *******************/
+/* murals page  class:  container-mural image-container-num1 image1 img1 image-num1 caption1 caption-num1*/
 
 .container-mural-page {
     margin: 0 auto;
@@ -575,74 +630,7 @@ textarea {
 
 }
 
-/* murals page  ******************
 
-.image-container {
-  display: inline-block;
-
-  width: 360px;
-  height: 485px;
-  overflow: hidden;
-  background: none;
-  cursor: pointer;
-    font-family: 'Source Code Pro';
-  font-size: 14px;
-  font-weight: 100;
-  color: #fff;
-  text-align: center;
-}
-.image {
-  width: 360px;
-  height: 485px;
-  z-index: 1;
-  transition: all 1s;
-}
-.image img {
-  max-width: 100%;
-}
-.caption {
-  width: 360px;
-  height: 485px;
-  padding-top: 200px;
-  padding-bottom: 10px;
-  background: rgba(0,0,0,.8);
-  z-index: 2;
-  font-weight: 300;
-  transition: all 1s;
-}
-
-.caption-num6 {
-  transform: translateY(-485px) translateY(-100%);
-}
-.image-container-num6:hover .caption-num6 {
-  transform: translateY(-485px);
-}
-
-.break {
-  display: none;
-}
-@media all and (max-width: 650px) {
-  .image-container {
-    margin: 30px;
-    outline: solid 20px #eee;
-  }
-  .break {
-    display: initial;
-  }
-}
-
-
-/* Clearfix 
-.container-about:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-}
-
-**********************************/
-
-/*  class:  container-mural image-container-num1 image1 img1 image-num1 caption1 caption-num1*/
 .container-mural {
   display: inline-block;
   position: relative;
