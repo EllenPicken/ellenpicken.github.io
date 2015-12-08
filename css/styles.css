@@ -1,7 +1,6 @@
 /* Global */
 
 body {
-    background-image: url(../img/background_streak.jpg);
     background: black;
     
     -webkit-background-size: 100%;
@@ -40,14 +39,6 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
-    font-family: 'Source Code Pro';
-    color: #c5c3c3;
-    font-size: 1.5em;
-    margin-top: 5px;
-    padding: 0px 5px 5px 0px;
-    text-transform: uppercase;
-}
 
 
 p1 {
@@ -55,7 +46,6 @@ p1 {
     color: #c5c3c3;
     font-size: 2em;
     padding: 10px;
-    
     display: block; 
 }
 
@@ -75,7 +65,6 @@ p3 {
     color: #c5c3c3;
     font-size: 1.25em;
     padding: 10px;
-    
     display: block; 
 }
 
@@ -124,9 +113,7 @@ a:hover, a:focus {
 
 
 
-/* Images */
-
-
+/***************** Index page *********************/
 
 .container {
   margin: 0 auto;
@@ -140,12 +127,6 @@ article {
   padding: 1%; /* 10px / 225px  = .044444 % */
   width: 20%; /* 200px / 1000px  = 20% */
 }
-
-
-
-
-
-/* Index page slide show */
 
 .box {  
   
@@ -171,7 +152,6 @@ article {
     transition: all 300ms ease-out;  
 }  
 
-
 .box .secondimage {  
     
     background-color: none;  
@@ -191,8 +171,6 @@ article {
     padding: 0px;
 }  
 
- 
-
  .box:hover .secondimage {  
     opacity: 1;  
 }
@@ -207,264 +185,8 @@ article {
 
 
 
-/* murals projects page */
 
-.container-projects {
-  margin: 0 auto;
-  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
-  max-width: 80%; /* for good visual design, reduce max-width */  
-}
-
-article1 {
-  float: left;
-  margin: 0% 0% 10% 0%; /* 10px / 900   = */
-  padding: 1%; /* 10px / 225px  = .044444 % */
-  width: 90%; /* 200px / 1000px  = 20% */
-    height: 50%;
-}
-
-
-/* Clearfix */
-.container-projects:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-}
-
-
-
-
-/* Submit Forms */
-
-label {
-    font-family: 'Poiret One', cursive;
-    color: #c5c3c3;
-    font-size: 2em;
-    text-transform: uppercase;
-    margin: 20px 10px 10px 0px;
-    
-    display: inline-block; 
-}
-
-input {
-    font-family: 'Source Code Pro';
-    font-size: 2em;
-    display: block;
-    width: 50%;
-    height: 60px;
-}
-
-textarea {
-    font-family: 'Source Code Pro';
-    font-size: 1em;
-    display: block;
-    width: 50%;
-}
-
-#button-send {
-    font-family: 'Poiret One', cursive;
-    color: #c5c3c3;
-    font-size: 2em;
-    text-transform: uppercase;
-    margin: .5px;
-    display: block;
-	width: 50%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: #000;
-	color:white;
-	padding-top: 10px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-#button-send:hover{
-	background-color: #ff00cc;
-	color: #000;
-}
-	
-.submit:hover {
-	color: #c5c3c3;
-}
-}
-    
-
-
-/*Buttons*/
-
-
-.container-button {
-    display: inline-block;
-    background-color: none;
-    border: none;
-    width: auto;
-    max-width: 100%;
-}
-
-    
-.btn1 {
-    float: left;
-      margin: 5% .1% 5% 10%; /* 10px / 900   = */
-      padding: .5% 2% .5% 2%; /* 10px / 225px  = .044444 % */
-      width: 15%;
-    height: 10%;
-   
-    background: #c5c3c3;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border: 0;
-    cursor: pointer;
-    touch-action: manipulation;
-    user-select: none;
-    text-decoration: none;
-    font-family: 'Poiret One', cursive;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    &:hover,
-    &:focus {
-      outline: 0;
-    }
-    }
-    
-    &--previous {
-      transition: padding .25s cubic-bezier(0.65, 0.05, 0.36, 1);
-      &:before {
-        content: '';
-        visibility: hidden;
-        display: inline-block;
-        position: absolute;
-        vertical-align: middle;
-        transform: translate(-15px, 0px);
-        transition: all .25s cubic-bezier(0.65, 0.05, 0.36, 1);
-        opacity: 0;
-      }
-      &:hover, &:focus {
-        padding-left: 28px;
-        &:before {
-          visibility: visible;
-          transform: translate(-25px, 0px);
-          opacity: 1;
-        }
-      }
-    }
-
-    
-  
-
-.btn2 {
-    float: left;
-      margin: 5% .1% 5% .1%; 
-      padding: .5%; 
-      width: 10%;
-    height: 10%;
-    background: #c5c3c3;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border: 0;
-    cursor: pointer;
-    touch-action: manipulation;
-    user-select: none;
-    text-decoration: none;
-    font-family: 'Poiret One', cursive;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    
-    &:hover,
-    &:focus {
-      outline: 0;
-    }
-    }
-    
-
-    &--next {
-      transition: padding .25s cubic-bezier(0.65, 0.05, 0.36, 1);
-      &:after {
-        content: '';
-        visibility: hidden;
-        display: inline-block;
-        position: absolute;
-        background-image: url('http://mihaeltomic.com/share/next.svg');
-        background-repeat: no-repeat;
-        background-size: 24px 24px;
-        background-position: 0px 4px;
-        width: 24px;
-        height: 24px;
-        vertical-align: middle;
-        transform: translate(-15px, 0px);
-        transition: all .25s cubic-bezier(0.65, 0.05, 0.36, 1);
-        opacity: 0;
-      }
-      &:hover, &:focus {
-        padding-right: 28px;
-        &:after {
-          visibility: visible;
-          transform: translate(5px, 0px);
-          opacity: 1;
-        }
-      }
-    }
-
-
-
-
-/* Slide Show */
-
-@keyframes fade{
-  0%    { opacity: 1; }
-  14.6% { opacity: 1; }
-  18.6% { opacity: 0; }
-  96%   { opacity: 0; }
-  100%  { opacity: 1; }
-}
-
-.slideshow {
-  position: relative;
-  width: 350px;
-  height: 350px;
-  font: 14px/1.3 helvetica;
-}
-
-.slideshow span {
-  position: absolute;
-  padding: 5px;
-  bottom: -10px;
-  right: 0;
-  width: 70%;
-  height: 12%;
-  background: none;
-  color: #000;
-  text-align: right;
- 
- 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.slideshow .slide {
-  position: absolute;
-  opacity: 0;
-}
-
-.slide:nth-child(1) {
-  animation: fade 20s 10s infinite;
-}
-.slide:nth-child(2) {
-  animation: fade 20s 5s infinite;
-}
-.slide:nth-child(3) {
-  animation: fade 20s 0s infinite;
-}
-
-/* about page */
-
+/********************** About Page **********************/
 
 .container-about {
     margin: 5%;
@@ -473,8 +195,6 @@ textarea {
   max-width: 90%;
 
 }
-
-
 
 .image-container {
   display: inline-block;
@@ -541,7 +261,10 @@ textarea {
 }
 
 
-/* murals page  class:  container-mural image-container-num1 image1 img1 image-num1 caption1 caption-num1*/
+
+
+
+/********************** List Murals Page  **********************/
 
 .container-mural-page {
     margin: 0 auto;
@@ -550,7 +273,6 @@ textarea {
     max-width: 90%;
 
 }
-
 
 .container-mural {
   display: inline-block;
@@ -602,3 +324,210 @@ textarea {
   }
 }
 
+
+
+
+
+
+/***************** murals projects page *********************/
+
+.container-projects {
+  margin: 0 auto;
+  width: 100%;  /* 1000px  == 100%. for good visual design, reduce max-width  */
+  max-width: 80%; /* for good visual design, reduce max-width */  
+}
+
+article1 {
+  float: left;
+  margin: 0% 0% 10% 0%; /* 10px / 900   = */
+  padding: 1%; /* 10px / 225px  = .044444 % */
+  width: 90%; /* 200px / 1000px  = 20% */
+    height: 50%;
+}
+
+
+/* Clearfix */
+.container-projects:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+
+
+
+/********************** Previous Next < > Buttons **********************/
+
+.container-button {
+    display: inline-block;
+    background-color: none;
+    border: none;
+    width: auto;
+    max-width: 100%;
+}
+
+    
+.btn1 {
+    float: left;
+      margin: 5% .1% 5% 10%; /* 10px / 900   = */
+      padding: .5% 2% .5% 2%; /* 10px / 225px  = .044444 % */
+      width: 15%;
+    height: 10%;
+   
+    background: #c5c3c3;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 0;
+    cursor: pointer;
+    touch-action: manipulation;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    &:hover,
+    &:focus {
+      outline: 0;
+    }
+    }
+    &--previous {
+      transition: padding .25s cubic-bezier(0.65, 0.05, 0.36, 1);
+      &:before {
+        content: '';
+        visibility: hidden;
+        display: inline-block;
+        position: absolute;
+        vertical-align: middle;
+        transform: translate(-15px, 0px);
+        transition: all .25s cubic-bezier(0.65, 0.05, 0.36, 1);
+        opacity: 0;
+      }
+      &:hover, &:focus {
+        padding-left: 28px;
+        &:before {
+          visibility: visible;
+          transform: translate(-25px, 0px);
+          opacity: 1;
+        }
+      }
+    }
+
+.btn2 {
+    float: left;
+      margin: 5% .1% 5% .1%; 
+      padding: .5%; 
+      width: 10%;
+    height: 10%;
+    background: #c5c3c3;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 0;
+    cursor: pointer;
+    touch-action: manipulation;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    
+    &:hover,
+    &:focus {
+      outline: 0;
+    }
+    }
+    &--next {
+      transition: padding .25s cubic-bezier(0.65, 0.05, 0.36, 1);
+      &:after {
+        content: '';
+        visibility: hidden;
+        display: inline-block;
+        position: absolute;
+        background-image: url('http://mihaeltomic.com/share/next.svg');
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        background-position: 0px 4px;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        transform: translate(-15px, 0px);
+        transition: all .25s cubic-bezier(0.65, 0.05, 0.36, 1);
+        opacity: 0;
+      }
+      &:hover, &:focus {
+        padding-right: 28px;
+        &:after {
+          visibility: visible;
+          transform: translate(5px, 0px);
+          opacity: 1;
+        }
+      }
+    }
+
+
+
+
+
+/********************** Contact Page Submit Forms **********************/
+
+label {
+    font-family: 'Poiret One', cursive;
+    color: #c5c3c3;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 20px 10px 10px 0px;
+    
+    display: inline-block; 
+}
+
+input {
+    font-family: 'Source Code Pro';
+    font-size: 2em;
+    display: block;
+    width: 50%;
+    height: 60px;
+}
+
+textarea {
+    font-family: 'Source Code Pro';
+    font-size: 1em;
+    display: block;
+    width: 50%;
+}
+
+#button-send {
+    font-family: 'Poiret One', cursive;
+    color: #c5c3c3;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: .5px;
+    display: block;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #000;
+	color:white;
+	padding-top: 10px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-send:hover{
+	background-color: #ff00cc;
+	color: #000;
+}
+	
+.submit:hover {
+	color: #c5c3c3;
+}
+}
